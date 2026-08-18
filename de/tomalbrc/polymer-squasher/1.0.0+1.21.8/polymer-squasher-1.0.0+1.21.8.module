@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.tomalbrc",
+    "module": "polymer-squasher",
+    "version": "1.0.0+1.21.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "polymer-squasher-1.0.0+1.21.8.jar",
+          "url": "polymer-squasher-1.0.0+1.21.8.jar",
+          "size": 16716,
+          "sha512": "94c4da9a7047c37eadeeb4ef46266c36e51dad00a83f0fb9ffdee17f530dfe99a382697e1849cab279b112fc06b06240dd90d99c386379c02395be31ec1c5483",
+          "sha256": "5d7b6ab8248384006d47a0bdafbe2d2beda56ffe85d72465ff96ec6db5de6587",
+          "sha1": "a26ba72cdf37efa46254684cdf700e89af837a4b",
+          "md5": "892c1ad2d5fecee9c05b92ae2d7775cd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.131.0+1.21.8"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-core",
+          "version": {
+            "requires": "0.13.9+1.21.8"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack",
+          "version": {
+            "requires": "0.13.9+1.21.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "polymer-squasher-1.0.0+1.21.8.jar",
+          "url": "polymer-squasher-1.0.0+1.21.8.jar",
+          "size": 16716,
+          "sha512": "94c4da9a7047c37eadeeb4ef46266c36e51dad00a83f0fb9ffdee17f530dfe99a382697e1849cab279b112fc06b06240dd90d99c386379c02395be31ec1c5483",
+          "sha256": "5d7b6ab8248384006d47a0bdafbe2d2beda56ffe85d72465ff96ec6db5de6587",
+          "sha1": "a26ba72cdf37efa46254684cdf700e89af837a4b",
+          "md5": "892c1ad2d5fecee9c05b92ae2d7775cd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "polymer-squasher-1.0.0+1.21.8-sources.jar",
+          "url": "polymer-squasher-1.0.0+1.21.8-sources.jar",
+          "size": 9413,
+          "sha512": "94884050131195c5a8282a85b5002dc4d6e8fa1aeab2181435e6662927aa7addebe05cdd7e66844a0167956fdba58b8c882be4264cffd9c95383ea0227de553d",
+          "sha256": "504cc43bb5142f13a3ce9a3741713b657622fdc0e09a87db1dcdc0462bda8c61",
+          "sha1": "fae71688585172f448134e4ae1061f91693afcd7",
+          "md5": "cd064697bfd9fee28acb052bc444dd05"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.nucleoid",
+    "module": "disguiselib",
+    "version": "1.3.8+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "disguiselib-1.3.8+1.21.1.jar",
+          "url": "disguiselib-1.3.8+1.21.1.jar",
+          "size": 39882,
+          "sha512": "1bc68d5892b6ddc09c0c473a0901898e996f670f14e92776bc92a0c4f04b235c55ccea58fb517fbf0eca94748425107465e91c751b4d350c45bb002305c3223a",
+          "sha256": "e360782c36a7a93833116b3d636738674602e9337d6b7e7383bc2ce4082e4eef",
+          "sha1": "48017ce3ef7a5c6ceb752b6b9faff9c2587ad44f",
+          "md5": "657e8e0b5ab48e20fa5df3f949d3e964"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "disguiselib-1.3.8+1.21.1.jar",
+          "url": "disguiselib-1.3.8+1.21.1.jar",
+          "size": 39882,
+          "sha512": "1bc68d5892b6ddc09c0c473a0901898e996f670f14e92776bc92a0c4f04b235c55ccea58fb517fbf0eca94748425107465e91c751b4d350c45bb002305c3223a",
+          "sha256": "e360782c36a7a93833116b3d636738674602e9337d6b7e7383bc2ce4082e4eef",
+          "sha1": "48017ce3ef7a5c6ceb752b6b9faff9c2587ad44f",
+          "md5": "657e8e0b5ab48e20fa5df3f949d3e964"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "disguiselib-1.3.8+1.21.1-sources.jar",
+          "url": "disguiselib-1.3.8+1.21.1-sources.jar",
+          "size": 29117,
+          "sha512": "ed1bcd5accf1a7c89339f59fc2c81a193feb8b74c8ecbebcb4f3b9f530f189fef9d0c0339f09cc90358eeaa7e49ef226dda0479d63a46198fdabb032bfbb43bc",
+          "sha256": "2a6792e6d5b8ccfde167525915febf89ba81261263b8007691669ca32408cc6d",
+          "sha1": "3d4c95ee5b0a2fad8ec4da03fb25cf0ae7455c6f",
+          "md5": "c515502e393da08f317b8c5242cca537"
+        }
+      ]
+    }
+  ]
+}

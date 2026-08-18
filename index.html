@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="halfmoon.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="/icon.png" sizes="32x32">
+	<link rel="shortcut icon" href="/icon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/icon.ico">
+	<title>toms site</title>
+    <style>
+        body {
+			background: #343a40;
+            display: flex; /* Allow vertical centering */
+            align-items: center; /* Center content vertically */
+            justify-content: center; /* Center content horizontally */
+            min-height: 100vh; /* Set minimum height for full viewport */
+        }
+        .card {
+            border: 2px solid #9b59b6; /* Purple border for cards */
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Subtle purple shadow */
+            margin-bottom: 20px; /* Add spacing between cards */
+            max-width: 40em;
+        }
+    </style>
+</head>
+    <body class="text-light">
+        <div class="container d-flex flex-column align-items-center mw-30 text-light">
+            <h1 class="mb-1">tomalbrc's maven repo</h1>
+            <h2 class="mb-5">currently hosts:</h2>
+            <div class="card mb-3 text-light bg-dark">
+                <div class="card-header"><h3 class="mb-0">blockbench-import-library</h3></div>
+                <center>
+                    <div class="card-body">
+                        <p class="card-text">This library simplifies model import, generates item models &amp; textures, and leverages polymer for resource pack creation. Supports animations, Molang expressions, and various Blockbench features.</p>
+                        <a href="https://github.com/tomalbrc/filament" class="btn btn-success">View on Github</a>
+                        <a href="https://modrinth.com/mod/blockbench-import-library" class="btn btn-primary">View on Modrinth</a>
+                    </div>
+                </center>
+            </div>
+            <div class="card mb-3 text-light bg-dark">
+                <div class="card-header"><h3 class="mb-0">filament</h3></div>
+                <center>
+                    <div class="card-body">
+                    <p class="card-text">Data driven Blocks, Items and Decorations for Fabric based servers. No client mods required!</p>
+                        <a href="https://github.com/tomalbrc/filament" class="btn btn-success">View on Github</a>
+                        <a href="https://modrinth.com/mod/filament" class="btn btn-primary">View on Modrinth</a>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </body>
+</html>

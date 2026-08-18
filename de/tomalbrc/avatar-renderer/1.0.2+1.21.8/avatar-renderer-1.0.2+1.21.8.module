@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.tomalbrc",
+    "module": "avatar-renderer",
+    "version": "1.0.2+1.21.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "avatar-renderer-1.0.2+1.21.8.jar",
+          "url": "avatar-renderer-1.0.2+1.21.8.jar",
+          "size": 1045052,
+          "sha512": "8055c5743a05f41ea5dd74296d4bd0d4608e5be9aa909afbcec30b36e0b746566a59e611bac9a15a3108bb8890889fc23985f13a92d7cb82468878621106b738",
+          "sha256": "37173f0b1aa5bdca99d1d2866e71479325e07ec6e6d4b831cbcafaec12aab494",
+          "sha1": "620873f1b6955735c3f221d926df3978970d1cd3",
+          "md5": "691549eafcfbfc9f0767021d81b3a259"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.133.4+1.21.8"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "placeholder-api",
+          "version": {
+            "requires": "2.7.2+1.21.8"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack",
+          "version": {
+            "requires": "0.13.13+1.21.8"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-autohost",
+          "version": {
+            "requires": "0.13.13+1.21.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "avatar-renderer-1.0.2+1.21.8.jar",
+          "url": "avatar-renderer-1.0.2+1.21.8.jar",
+          "size": 1045052,
+          "sha512": "8055c5743a05f41ea5dd74296d4bd0d4608e5be9aa909afbcec30b36e0b746566a59e611bac9a15a3108bb8890889fc23985f13a92d7cb82468878621106b738",
+          "sha256": "37173f0b1aa5bdca99d1d2866e71479325e07ec6e6d4b831cbcafaec12aab494",
+          "sha1": "620873f1b6955735c3f221d926df3978970d1cd3",
+          "md5": "691549eafcfbfc9f0767021d81b3a259"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "avatar-renderer-1.0.2+1.21.8-sources.jar",
+          "url": "avatar-renderer-1.0.2+1.21.8-sources.jar",
+          "size": 12047,
+          "sha512": "519cb5c78354ae1af244c28f68ab6dcdb608efbb896adc5fd7bf70b8b00610e5cc6172756e30ec5774feaa43d2d3bd19644a8d79e6a6928c3a7eccece8e4156b",
+          "sha256": "537551f34d10221272ac6ccd69ee1db3893fe6d4e37f085b6231d3cdba90dc6a",
+          "sha1": "4b9cccab47dc6abc1a8e7015e0a5c16d4439492e",
+          "md5": "062d633fda9a97b00aaf21acea07000a"
+        }
+      ]
+    }
+  ]
+}

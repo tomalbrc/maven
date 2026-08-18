@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.tomalbrc",
+    "module": "DialogUtils",
+    "version": "1.2.3+1.21.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "DialogUtils-1.2.3+1.21.6.jar",
+          "url": "DialogUtils-1.2.3+1.21.6.jar",
+          "size": 407028,
+          "sha512": "2585a5b17f50d05e889fe55ade8fa1aba9b633a2f5fdcbb22049f4cee7f937b9bd399454b1e29058f9fbd5950ffaecb530e17eb13ec52e3607b47e83c56dd3ec",
+          "sha256": "54ad7916f3e4afc0e5bbd1850d81d7ca9cfd4091df344a4fd5c761d3cd01a08b",
+          "sha1": "34c2d85a741bf8cafca8bb8a6a422ae9a8f48e87",
+          "md5": "0fe4d50d6cb25fb42f99d08f4e4424c9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.127.1+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-core",
+          "version": {
+            "requires": "0.13.2+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack",
+          "version": {
+            "requires": "0.13.2+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack-extras",
+          "version": {
+            "requires": "0.13.2+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-autohost",
+          "version": {
+            "requires": "0.13.2+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "map-canvas-api",
+          "version": {
+            "requires": "0.5.0+1.21.3"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "placeholder-api",
+          "version": {
+            "requires": "2.6.2+1.21.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DialogUtils-1.2.3+1.21.6.jar",
+          "url": "DialogUtils-1.2.3+1.21.6.jar",
+          "size": 407028,
+          "sha512": "2585a5b17f50d05e889fe55ade8fa1aba9b633a2f5fdcbb22049f4cee7f937b9bd399454b1e29058f9fbd5950ffaecb530e17eb13ec52e3607b47e83c56dd3ec",
+          "sha256": "54ad7916f3e4afc0e5bbd1850d81d7ca9cfd4091df344a4fd5c761d3cd01a08b",
+          "sha1": "34c2d85a741bf8cafca8bb8a6a422ae9a8f48e87",
+          "md5": "0fe4d50d6cb25fb42f99d08f4e4424c9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DialogUtils-1.2.3+1.21.6-sources.jar",
+          "url": "DialogUtils-1.2.3+1.21.6-sources.jar",
+          "size": 12577,
+          "sha512": "6c0603134d232bd7d4797d9a38d1822e191738d4d1396385ec23a29f4f885392dcaca3c674b1d0689c21c2f35c9ed26982059e591fea946800028b58d075675d",
+          "sha256": "98c363d1480a6b1e34bd4cc1bfd123daaab3182f392d51a34d30f0304094772a",
+          "sha1": "121a6c29e599c1cbd0e8df1cd18ce550d54ef4fc",
+          "md5": "b130d1f08db791914b1e6b55ab77e3f2"
+        }
+      ]
+    }
+  ]
+}

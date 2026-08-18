@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.tomalbrc",
+    "module": "filament",
+    "version": "1.0.0-beta.1+1.21.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "filament-1.0.0-beta.1+1.21.6.jar",
+          "url": "filament-1.0.0-beta.1+1.21.6.jar",
+          "size": 1559393,
+          "sha512": "f3bd6300eaff682b6647c26a5f4313b5c3b36c6e7c9cfbb7b6b7d43d2c5b952ab6da322928e044bc56151d4cf9fe86f03b9d3d19a42f8befd92efe8d9f591464",
+          "sha256": "be66b7e06143913ddcfe042afc8097520e937b4d587724eb86c9cf7d688270cc",
+          "sha1": "c69cea972f869bf2436e56499e761d973810cbf0",
+          "md5": "518dee0420c2bdbaf76e5e2b42d2c9cf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.126.0+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-core",
+          "version": {
+            "requires": "0.13.0+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-blocks",
+          "version": {
+            "requires": "0.13.0+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack",
+          "version": {
+            "requires": "0.13.0+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack-extras",
+          "version": {
+            "requires": "0.13.0+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-virtual-entity",
+          "version": {
+            "requires": "0.13.0+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-networking",
+          "version": {
+            "requires": "0.13.0+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-autohost",
+          "version": {
+            "requires": "0.13.0+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-sound-patcher",
+          "version": {
+            "requires": "0.13.0+1.21.6"
+          }
+        },
+        {
+          "group": "de.tomalbrc",
+          "module": "blockbench-import-library",
+          "version": {
+            "requires": "1.4.1+1.21.6"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "placeholder-api",
+          "version": {
+            "requires": "2.7.0+1.21.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filament-1.0.0-beta.1+1.21.6.jar",
+          "url": "filament-1.0.0-beta.1+1.21.6.jar",
+          "size": 1559393,
+          "sha512": "f3bd6300eaff682b6647c26a5f4313b5c3b36c6e7c9cfbb7b6b7d43d2c5b952ab6da322928e044bc56151d4cf9fe86f03b9d3d19a42f8befd92efe8d9f591464",
+          "sha256": "be66b7e06143913ddcfe042afc8097520e937b4d587724eb86c9cf7d688270cc",
+          "sha1": "c69cea972f869bf2436e56499e761d973810cbf0",
+          "md5": "518dee0420c2bdbaf76e5e2b42d2c9cf"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filament-1.0.0-beta.1+1.21.6-all.jar",
+          "url": "filament-1.0.0-beta.1+1.21.6-all.jar",
+          "size": 1023116,
+          "sha512": "27ce1248bd81ba3c7e68cb446cff089c5ad214bb0984dfda934777f822b879db581d1bdfb0c86eca87e048308065208afbc4dfcbb32fcbadc3acf584af544183",
+          "sha256": "90fc249ae2af3f3b9b514205ab011f0f360b7691f6a8cd437b9782b30dbbb450",
+          "sha1": "c0f9c7f6f64744377e9fcc9952fa93f2da5d6908",
+          "md5": "b02a164032fb7511998f40161ff1744c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "filament-1.0.0-beta.1+1.21.6-sources.jar",
+          "url": "filament-1.0.0-beta.1+1.21.6-sources.jar",
+          "size": 274916,
+          "sha512": "e04ba6225bd7f47b677138ee207015f24f8d3708c5eba7044b46a9aa12f7c5757dcf7cd2975ecc353d4688380292109df03b68fb6756a35ca1e99de9c0a6ca17",
+          "sha256": "96f57e57e1f102416ccba7d0595f2e75c58554e8577bd6904969a1d1057e6741",
+          "sha1": "a9d1ab2fdd9314009b5ec01e574de9cc629839f8",
+          "md5": "2fa88926ca8132eb7cd0e0905ad1644a"
+        }
+      ]
+    }
+  ]
+}

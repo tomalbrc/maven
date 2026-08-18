@@ -1,0 +1,201 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.tomalbrc",
+    "module": "db-bundle",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-bom",
+          "version": {
+            "requires": "5.6.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-sync"
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-core"
+        },
+        {
+          "group": "org.mongodb",
+          "module": "bson"
+        },
+        {
+          "group": "org.mongodb",
+          "module": "bson-kotlin"
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.mariadb.jdbc",
+          "module": "mariadb-java-client",
+          "version": {
+            "requires": "3.5.6"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.8"
+          }
+        },
+        {
+          "group": "org.xerial",
+          "module": "sqlite-jdbc",
+          "version": {
+            "requires": "3.50.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "db-bundle-1.0.0.jar",
+          "url": "db-bundle-1.0.0.jar",
+          "size": 18557834,
+          "sha512": "103511b7e732775ab0efdad94f75b8f8cf318fab72648d9f659fd90d40ecce7d74e35c8adfe12b2cccfb48eaac3d928091fcfd22926bdea433f52b23677c635b",
+          "sha256": "d1913139f63b06b4b1ca24c94c52dff7d4314343fa4cd496715a07d805f94234",
+          "sha1": "c88b3e4df27e780a60cd0f63d0a23da8f0a801cc",
+          "md5": "636ad3323d25b7f152c470c505c79e55"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-bom",
+          "version": {
+            "requires": "5.6.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-sync"
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-core"
+        },
+        {
+          "group": "org.mongodb",
+          "module": "bson"
+        },
+        {
+          "group": "org.mongodb",
+          "module": "bson-kotlin"
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.mariadb.jdbc",
+          "module": "mariadb-java-client",
+          "version": {
+            "requires": "3.5.6"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.8"
+          }
+        },
+        {
+          "group": "org.xerial",
+          "module": "sqlite-jdbc",
+          "version": {
+            "requires": "3.50.3.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "db-bundle-1.0.0.jar",
+          "url": "db-bundle-1.0.0.jar",
+          "size": 18557834,
+          "sha512": "103511b7e732775ab0efdad94f75b8f8cf318fab72648d9f659fd90d40ecce7d74e35c8adfe12b2cccfb48eaac3d928091fcfd22926bdea433f52b23677c635b",
+          "sha256": "d1913139f63b06b4b1ca24c94c52dff7d4314343fa4cd496715a07d805f94234",
+          "sha1": "c88b3e4df27e780a60cd0f63d0a23da8f0a801cc",
+          "md5": "636ad3323d25b7f152c470c505c79e55"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "db-bundle-1.0.0-sources.jar",
+          "url": "db-bundle-1.0.0-sources.jar",
+          "size": 1965,
+          "sha512": "3d3439115dd0123dc3d243866e85bfb5397feddbb1bddeed7b10666a3ec69c9f9243a5978399a19e78ea507794107db45f6fa9d0c8181ea204a777d10b870030",
+          "sha256": "4bb2881518fc7c84e3b1206578eae6fdb8fffd44536feb50a1aa524a70343b74",
+          "sha1": "c8612445e7b501c0be7f81a02584bebf3e049588",
+          "md5": "d767d4179488b94f594544e6a0046cdd"
+        }
+      ]
+    }
+  ]
+}

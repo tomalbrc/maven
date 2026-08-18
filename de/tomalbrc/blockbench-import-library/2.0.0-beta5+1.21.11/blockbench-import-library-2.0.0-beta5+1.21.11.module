@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.tomalbrc",
+    "module": "blockbench-import-library",
+    "version": "2.0.0-beta5+1.21.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "blockbench-import-library-2.0.0-beta5+1.21.11.jar",
+          "url": "blockbench-import-library-2.0.0-beta5+1.21.11.jar",
+          "size": 353791,
+          "sha512": "2d22ec7f2e8337eaa9f7754dfed42018e5be452385adc3161759a34a6f7fe0bce684a67de9384dee0a65374d04a6fbaf7b95e0791dcec4dcaa9b103e491a2523",
+          "sha256": "30f98488a3ede70f4643039b7fa934c1131e3235db962d7d674c22da366467ca",
+          "sha1": "0fb1e70863e1d86bf28db5a92e821d8335d20e3d",
+          "md5": "7337e15673d29d7a19991b66679abef8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "gg.moonflower",
+          "module": "molang-compiler",
+          "version": {
+            "requires": "3.1.1.19"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.139.4+1.21.11"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-core",
+          "version": {
+            "requires": "0.15.0-beta.4+1.21.11-rc2"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-networking",
+          "version": {
+            "requires": "0.15.0-beta.4+1.21.11-rc2"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack",
+          "version": {
+            "requires": "0.15.0-beta.4+1.21.11-rc2"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack-extras",
+          "version": {
+            "requires": "0.15.0-beta.4+1.21.11-rc2"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-virtual-entity",
+          "version": {
+            "requires": "0.15.0-beta.4+1.21.11-rc2"
+          }
+        },
+        {
+          "group": "me.lucko",
+          "module": "fabric-permissions-api",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-autohost",
+          "version": {
+            "requires": "0.15.0-beta.4+1.21.11-rc2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blockbench-import-library-2.0.0-beta5+1.21.11.jar",
+          "url": "blockbench-import-library-2.0.0-beta5+1.21.11.jar",
+          "size": 353791,
+          "sha512": "2d22ec7f2e8337eaa9f7754dfed42018e5be452385adc3161759a34a6f7fe0bce684a67de9384dee0a65374d04a6fbaf7b95e0791dcec4dcaa9b103e491a2523",
+          "sha256": "30f98488a3ede70f4643039b7fa934c1131e3235db962d7d674c22da366467ca",
+          "sha1": "0fb1e70863e1d86bf28db5a92e821d8335d20e3d",
+          "md5": "7337e15673d29d7a19991b66679abef8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blockbench-import-library-2.0.0-beta5+1.21.11-sources.jar",
+          "url": "blockbench-import-library-2.0.0-beta5+1.21.11-sources.jar",
+          "size": 121579,
+          "sha512": "4392d30f970c6adc51c7981ebb1aff68d37a0304017cf226b6f8352de7b0e5c294c764064f2125a0914a1c9183c87c5b34d44db18ba018bf4b9a2ae4364109ef",
+          "sha256": "0b58c71a5a530a84c9629be95dd7d331198be56e98fcf3a7e1b616c5b9db1eba",
+          "sha1": "ab9f9d9a5f59c84c316aabc4ffcda0227ef7322a",
+          "md5": "94d51e672a6feebae980be1dcef5e62a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.tomalbrc",
+    "module": "filament",
+    "version": "0.10.0+1.21.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "filament-0.10.0+1.21.4.jar",
+          "url": "filament-0.10.0+1.21.4.jar",
+          "size": 891240,
+          "sha512": "69c3a9ad1a9bafce276e7ceab241cd99fb57d3d0a0e6b2c60a3b9770cacd62ae81209eb4b42dfeb1ffd2e11d06c31b247ca84d86110dd34a7a3b51468b248795",
+          "sha256": "d33b92097fbcdc4976b1b839a448c20fcc61641a09dde987bd7f30dc073152a8",
+          "sha1": "0f2e2b94940996da4a20829e9bdee28ed5e2e552",
+          "md5": "30f6e9a9757f053d058a9a995ca829d4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.110.5+1.21.4"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-core",
+          "version": {
+            "requires": "0.11.0+1.21.4-rc1"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-blocks",
+          "version": {
+            "requires": "0.11.0+1.21.4-rc1"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack",
+          "version": {
+            "requires": "0.11.0+1.21.4-rc1"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack-extras",
+          "version": {
+            "requires": "0.11.0+1.21.4-rc1"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-virtual-entity",
+          "version": {
+            "requires": "0.11.0+1.21.4-rc1"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-networking",
+          "version": {
+            "requires": "0.11.0+1.21.4-rc1"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-autohost",
+          "version": {
+            "requires": "0.11.0+1.21.4-rc1"
+          }
+        },
+        {
+          "group": "de.tomalbrc",
+          "module": "blockbench-import-library",
+          "version": {
+            "requires": "1.1.14+1.21.4"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "placeholder-api",
+          "version": {
+            "requires": "2.6.0+1.21.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filament-0.10.0+1.21.4.jar",
+          "url": "filament-0.10.0+1.21.4.jar",
+          "size": 891240,
+          "sha512": "69c3a9ad1a9bafce276e7ceab241cd99fb57d3d0a0e6b2c60a3b9770cacd62ae81209eb4b42dfeb1ffd2e11d06c31b247ca84d86110dd34a7a3b51468b248795",
+          "sha256": "d33b92097fbcdc4976b1b839a448c20fcc61641a09dde987bd7f30dc073152a8",
+          "sha1": "0f2e2b94940996da4a20829e9bdee28ed5e2e552",
+          "md5": "30f6e9a9757f053d058a9a995ca829d4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "filament-0.10.0+1.21.4-sources.jar",
+          "url": "filament-0.10.0+1.21.4-sources.jar",
+          "size": 164195,
+          "sha512": "6aaa94192d259a4e1593ec92e8feef894ee2f3c91ab8d5ab22459b6df1e0b24961d44d7525888549d8d47e26db3afd31d1e05741c3d0d099449fe0cc81b270de",
+          "sha256": "b60d6dc30e8f3ecf1e236298876aacc05de4ee9db6af467b4deaa16b6e7602fe",
+          "sha1": "2aa91a349e5b2e7d64d722e7f077f66baad7137e",
+          "md5": "61696ee4bcdb3379d61a3d7d1536003f"
+        }
+      ]
+    }
+  ]
+}

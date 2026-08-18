@@ -1,0 +1,228 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.cobblemonislands",
+    "module": "emotive",
+    "version": "1.0.1+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "emotive-1.0.1+1.21.1.jar",
+          "url": "emotive-1.0.1+1.21.1.jar",
+          "size": 18625353,
+          "sha512": "154799d83d9c70ce4efdc3f3a052279e79b8f4b5b7ef194bd1f64e675c86e31978140b6592b1aa80f1857bfe4b3596085919cf579c0669c9a69fcadfb74c03b7",
+          "sha256": "e9025a9871ec677112188d5fa75cb4faf31f7f2ab0a225802965838f79387853",
+          "sha1": "33587e12553b0be067067e8449b7116a6313f0be",
+          "md5": "f6644ae6753f0b8f0deabddc9dff8acf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-sync",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-core",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "org.mongodb",
+          "module": "bson",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.mariadb.jdbc",
+          "module": "mariadb-java-client",
+          "version": {
+            "requires": "3.5.6"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.8"
+          }
+        },
+        {
+          "group": "org.xerial",
+          "module": "sqlite-jdbc",
+          "version": {
+            "requires": "3.50.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.6+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-language-kotlin",
+          "version": {
+            "requires": "1.12.3+kotlin.2.0.21"
+          }
+        },
+        {
+          "group": "com.cobblemon",
+          "module": "fabric",
+          "version": {
+            "requires": "1.6.1+1.21.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-core",
+          "version": {
+            "requires": "0.9.18+1.21.1"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack",
+          "version": {
+            "requires": "0.9.18+1.21.1"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-virtual-entity",
+          "version": {
+            "requires": "0.9.18+1.21.1"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "placeholder-api",
+          "version": {
+            "requires": "2.4.2+1.21"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "sgui",
+          "version": {
+            "requires": "1.6.1+1.21.1"
+          }
+        },
+        {
+          "group": "me.lucko",
+          "module": "fabric-permissions-api",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-autohost",
+          "version": {
+            "requires": "0.9.18+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "emotive-1.0.1+1.21.1.jar",
+          "url": "emotive-1.0.1+1.21.1.jar",
+          "size": 18625353,
+          "sha512": "154799d83d9c70ce4efdc3f3a052279e79b8f4b5b7ef194bd1f64e675c86e31978140b6592b1aa80f1857bfe4b3596085919cf579c0669c9a69fcadfb74c03b7",
+          "sha256": "e9025a9871ec677112188d5fa75cb4faf31f7f2ab0a225802965838f79387853",
+          "sha1": "33587e12553b0be067067e8449b7116a6313f0be",
+          "md5": "f6644ae6753f0b8f0deabddc9dff8acf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "emotive-1.0.1+1.21.1-sources.jar",
+          "url": "emotive-1.0.1+1.21.1-sources.jar",
+          "size": 41755,
+          "sha512": "bd8fce7c7481fb018a6df85b67a10aecee3fe14f84873ca89006d694752994be85016bbe1fe27cf6cad1837b8ea7fe64159d511eb5ab91a6bbef74f397ca1399",
+          "sha256": "d7a445428295803797bae51ed01cc7536d14bac93d18730ef932c757f7e1f281",
+          "sha1": "572f4d3170dd02f43c4c24cbee7fede4fda6b3e6",
+          "md5": "9c25314236cbcf7716dbd348588c541d"
+        }
+      ]
+    }
+  ]
+}

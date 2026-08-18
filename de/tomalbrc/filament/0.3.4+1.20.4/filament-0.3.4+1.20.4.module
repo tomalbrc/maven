@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.tomalbrc",
+    "module": "filament",
+    "version": "0.3.4+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "filament-0.3.4+1.20.4.jar",
+          "url": "filament-0.3.4+1.20.4.jar",
+          "size": 486087,
+          "sha512": "a5fab8de7981200120265516a1af6018a8c789937d4512fd049703089bac382d89f4c278a438a14ddc42305ff2515706585e77521050c080fafa053a8b93957e",
+          "sha256": "3cd4af169e274c4c48e0b2918e8c1acc082765b5c96c31db76ac5ebad48df9f3",
+          "sha1": "a5f4139d7ee6e6b55c9e8b85a20349520b0d0889",
+          "md5": "eb6752da1e7a034916f7ebaaa1c3ae05"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.96.1+1.20.4"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-core",
+          "version": {
+            "requires": "0.7.7+1.20.4"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-blocks",
+          "version": {
+            "requires": "0.7.7+1.20.4"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack",
+          "version": {
+            "requires": "0.7.7+1.20.4"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-virtual-entity",
+          "version": {
+            "requires": "0.7.7+1.20.4"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-networking",
+          "version": {
+            "requires": "0.7.7+1.20.4"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-autohost",
+          "version": {
+            "requires": "0.7.7+1.20.4"
+          }
+        },
+        {
+          "group": "de.tomalbrc",
+          "module": "blockbench-import-library",
+          "version": {
+            "requires": "1.1.7+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filament-0.3.4+1.20.4.jar",
+          "url": "filament-0.3.4+1.20.4.jar",
+          "size": 486087,
+          "sha512": "a5fab8de7981200120265516a1af6018a8c789937d4512fd049703089bac382d89f4c278a438a14ddc42305ff2515706585e77521050c080fafa053a8b93957e",
+          "sha256": "3cd4af169e274c4c48e0b2918e8c1acc082765b5c96c31db76ac5ebad48df9f3",
+          "sha1": "a5f4139d7ee6e6b55c9e8b85a20349520b0d0889",
+          "md5": "eb6752da1e7a034916f7ebaaa1c3ae05"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "filament-0.3.4+1.20.4-sources.jar",
+          "url": "filament-0.3.4+1.20.4-sources.jar",
+          "size": 89571,
+          "sha512": "c39cee5789c5157d22145c7593a49d95f2a224d8eaa929a813f583623695ecef6ed879b337b1e34c04291c34cfa6678f8e346916193893c46491401428027c98",
+          "sha256": "2d84a9d4bed41e16b71cf342d88b86900a563b85f3b6904aec2db1f289bbf046",
+          "sha1": "5d1162beb9d1479549c458adc2d8463ab7769be3",
+          "md5": "1a24a1c3f15d2867bd6dfb6a5eb38c27"
+        }
+      ]
+    }
+  ]
+}

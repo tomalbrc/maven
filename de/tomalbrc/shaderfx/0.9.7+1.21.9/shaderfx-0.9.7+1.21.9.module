@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.tomalbrc",
+    "module": "shaderfx",
+    "version": "0.9.7+1.21.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "shaderfx-0.9.7+1.21.9.jar",
+          "url": "shaderfx-0.9.7+1.21.9.jar",
+          "size": 1167645,
+          "sha512": "3dc3e75550f0298df7371c0d4b9ba177213b142ca57850998bb490a96575eb7c5c1b1be604e6404c395b96c49442e2c1e6c5934f624c4d903c6758c9ce2d988f",
+          "sha256": "567864006aafff5ee1a3cc98e9adb9191dcf4f76ae87d2f99ca1b65589b8ca4e",
+          "sha1": "64cea4b07b1cf6ef0aec5b4acdabb73296637248",
+          "md5": "e6f54d4b96fd0b128858f1ae3575efec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-minimessage",
+          "version": {
+            "requires": "4.25.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.25.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.134.0+1.21.9"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-platform-fabric",
+          "version": {
+            "requires": "6.7.0"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-core",
+          "version": {
+            "requires": "0.14.2+1.21.9"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack",
+          "version": {
+            "requires": "0.14.2+1.21.9"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-resource-pack-extras",
+          "version": {
+            "requires": "0.14.2+1.21.9"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "polymer-autohost",
+          "version": {
+            "requires": "0.14.2+1.21.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shaderfx-0.9.7+1.21.9.jar",
+          "url": "shaderfx-0.9.7+1.21.9.jar",
+          "size": 1167645,
+          "sha512": "3dc3e75550f0298df7371c0d4b9ba177213b142ca57850998bb490a96575eb7c5c1b1be604e6404c395b96c49442e2c1e6c5934f624c4d903c6758c9ce2d988f",
+          "sha256": "567864006aafff5ee1a3cc98e9adb9191dcf4f76ae87d2f99ca1b65589b8ca4e",
+          "sha1": "64cea4b07b1cf6ef0aec5b4acdabb73296637248",
+          "md5": "e6f54d4b96fd0b128858f1ae3575efec"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "shaderfx-0.9.7+1.21.9-sources.jar",
+          "url": "shaderfx-0.9.7+1.21.9-sources.jar",
+          "size": 171122,
+          "sha512": "4f9c5de9d9c8393f17efa6493e944e141adfe08a9131ad0347ca89c9b455a14ca813c968654e917ebbe552272c2c5417f1473af68e8844cc95a41003fc3d067b",
+          "sha256": "b87804f3f72075cd3c1824422342e80f897da3a43ac958cb910adcf4734be95f",
+          "sha1": "17aee0414ae77fa478ea7c39bf1350453e7fe007",
+          "md5": "c4e1ff6b4abc52eb0b8d0677bad0e370"
+        }
+      ]
+    }
+  ]
+}
