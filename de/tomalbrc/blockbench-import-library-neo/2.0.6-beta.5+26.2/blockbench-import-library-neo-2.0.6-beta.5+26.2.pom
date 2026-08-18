@@ -8,8 +8,8 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.tomalbrc</groupId>
-  <artifactId>blockbench-import-library</artifactId>
-  <version>2.0.5+26.1</version>
+  <artifactId>blockbench-import-library-neo</artifactId>
+  <version>2.0.6-beta.5+26.2</version>
   <dependencies>
     <dependency>
       <groupId>eu.pb4</groupId>
@@ -39,12 +39,6 @@
       <groupId>eu.pb4</groupId>
       <artifactId>polymer-virtual-entity-neo</artifactId>
       <version>0.16.5+26.1.2</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>me.lucko</groupId>
-      <artifactId>fabric-permissions-api</artifactId>
-      <version>0.7.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

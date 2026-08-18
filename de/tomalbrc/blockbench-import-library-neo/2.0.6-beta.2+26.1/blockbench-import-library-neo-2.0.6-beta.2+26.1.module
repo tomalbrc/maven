@@ -2,8 +2,8 @@
   "formatVersion": "1.1",
   "component": {
     "group": "de.tomalbrc",
-    "module": "blockbench-import-library",
-    "version": "2.0.5+26.1",
+    "module": "blockbench-import-library-neo",
+    "version": "2.0.6-beta.2+26.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "blockbench-import-library-2.0.5+26.1.jar",
-          "url": "blockbench-import-library-2.0.5+26.1.jar",
-          "size": 351245,
-          "sha512": "ad044123202e26272df402cfa439a57cca02b3aa10d19d390d56e94827a9f29232aa2c592ed93d2a33e01882e94f9dac29001b99770ee762c6d20d347cbd5d5f",
-          "sha256": "f206d59af0c6b91a6936cbcc098ff2adc916726a12b3119db98b903776b70515",
-          "sha1": "4c67fb0ba7fcd333539483d42cba6e058061ee16",
-          "md5": "864d2bfa75f20f336bdb50d8dcd3911e"
+          "name": "blockbench-import-library-neo-2.0.6-beta.2+26.1.jar",
+          "url": "blockbench-import-library-neo-2.0.6-beta.2+26.1.jar",
+          "size": 352754,
+          "sha512": "96c67537db9c0b125a5b644579ba6129aa84b25e750caacc0c1414e706c7d4466fa45120a712975f812c8be4495455e1c4be0466595d865cbfd577d170f76a57",
+          "sha256": "9cb7be488891d86d9ca960ff2fbe171d3b4766901d391b823358430d697a34f5",
+          "sha1": "23a871becc002436624bb54e05411b3d4948a1a6",
+          "md5": "9d60fba7114f5621c398a605fc234d01"
         }
       ]
     },
@@ -104,13 +104,13 @@
       ],
       "files": [
         {
-          "name": "blockbench-import-library-2.0.5+26.1.jar",
-          "url": "blockbench-import-library-2.0.5+26.1.jar",
-          "size": 351245,
-          "sha512": "ad044123202e26272df402cfa439a57cca02b3aa10d19d390d56e94827a9f29232aa2c592ed93d2a33e01882e94f9dac29001b99770ee762c6d20d347cbd5d5f",
-          "sha256": "f206d59af0c6b91a6936cbcc098ff2adc916726a12b3119db98b903776b70515",
-          "sha1": "4c67fb0ba7fcd333539483d42cba6e058061ee16",
-          "md5": "864d2bfa75f20f336bdb50d8dcd3911e"
+          "name": "blockbench-import-library-neo-2.0.6-beta.2+26.1.jar",
+          "url": "blockbench-import-library-neo-2.0.6-beta.2+26.1.jar",
+          "size": 352754,
+          "sha512": "96c67537db9c0b125a5b644579ba6129aa84b25e750caacc0c1414e706c7d4466fa45120a712975f812c8be4495455e1c4be0466595d865cbfd577d170f76a57",
+          "sha256": "9cb7be488891d86d9ca960ff2fbe171d3b4766901d391b823358430d697a34f5",
+          "sha1": "23a871becc002436624bb54e05411b3d4948a1a6",
+          "md5": "9d60fba7114f5621c398a605fc234d01"
         }
       ]
     },
@@ -124,13 +124,13 @@
       },
       "files": [
         {
-          "name": "blockbench-import-library-2.0.5+26.1-sources.jar",
-          "url": "blockbench-import-library-2.0.5+26.1-sources.jar",
-          "size": 120521,
-          "sha512": "27119e03836af6b309a00d502cc582cb2a7303fc8d724318fb892509abbac2a3ef4edef37d93a62a848d321dc24717b816e4fed380979ac4486d2018078f9eb9",
-          "sha256": "e9a9826ea8c431d0baf87f22caca05de76c3b8d817687470bbe2334d46f66e08",
-          "sha1": "0fd3a8c63291bab072700d806e6e6f0af30f4a86",
-          "md5": "12ae016ff9d298038488850146677a48"
+          "name": "blockbench-import-library-neo-2.0.6-beta.2+26.1-sources.jar",
+          "url": "blockbench-import-library-neo-2.0.6-beta.2+26.1-sources.jar",
+          "size": 121033,
+          "sha512": "8daa679776906b86eca665f631235274abeb709087afd9a7a994b3f9154e7a67cae4e5ad02c609d6a52db39f1a5635104a6de736796e3e18f8d7c7c8b516379b",
+          "sha256": "ee99ff418381d38a2c1e4482b4812b68a46304ee52eeb55eaf864e4184b309de",
+          "sha1": "ad6b85dbf0997201450e9d0b35dc16aaf84ab91d",
+          "md5": "2cb8967b2f8fe9577825d387463b16d8"
         }
       ]
     },
@@ -145,13 +145,13 @@
       },
       "files": [
         {
-          "name": "blockbench-import-library-2.0.5+26.1.jar",
-          "url": "blockbench-import-library-2.0.5+26.1.jar",
-          "size": 351245,
-          "sha512": "ad044123202e26272df402cfa439a57cca02b3aa10d19d390d56e94827a9f29232aa2c592ed93d2a33e01882e94f9dac29001b99770ee762c6d20d347cbd5d5f",
-          "sha256": "f206d59af0c6b91a6936cbcc098ff2adc916726a12b3119db98b903776b70515",
-          "sha1": "4c67fb0ba7fcd333539483d42cba6e058061ee16",
-          "md5": "864d2bfa75f20f336bdb50d8dcd3911e"
+          "name": "blockbench-import-library-neo-2.0.6-beta.2+26.1.jar",
+          "url": "blockbench-import-library-neo-2.0.6-beta.2+26.1.jar",
+          "size": 352754,
+          "sha512": "96c67537db9c0b125a5b644579ba6129aa84b25e750caacc0c1414e706c7d4466fa45120a712975f812c8be4495455e1c4be0466595d865cbfd577d170f76a57",
+          "sha256": "9cb7be488891d86d9ca960ff2fbe171d3b4766901d391b823358430d697a34f5",
+          "sha1": "23a871becc002436624bb54e05411b3d4948a1a6",
+          "md5": "9d60fba7114f5621c398a605fc234d01"
         }
       ]
     }

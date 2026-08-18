@@ -8,7 +8,7 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.tomalbrc</groupId>
-  <artifactId>blockbench-import-library</artifactId>
+  <artifactId>blockbench-import-library-neo</artifactId>
   <version>2.0.5+26.1</version>
   <dependencies>
     <dependency>
